@@ -1,5 +1,7 @@
 # vk-devmeetup
 
+Following [Vue + Vuetify + Firebase DevMeetup YouTube Project. YouTube playlist](https://www.youtube.com/playlist?list=PL55RiY5tL51qxUbODJG9cgrsVd7ZHbPrt), see also [Repo](https://github.com/academind/yt-devmeetup-vue-firebase), but going and committing step by step.
+
 > Dev Meetup tutorial with Vue.js, Vue Router, Vuetify and Firebase
 
 ## Build Setup
