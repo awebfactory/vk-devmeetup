@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import Vuetify from 'vuetify'
 import App from './App'
+import * as firebase from 'firebase'
 import router from './router'
 import { store } from './store'
 import * as DateFilter from './filters/date'
@@ -18,5 +19,14 @@ new Vue({
   el: '#app',
   router,
   store,
-  render: h => h(App)
+  render: h => h(App),
+  created () {
+    firebase.initializeApp({
+      apiKey: 'AIzaSyCUC60NONOgHu9PnMPmNNe0Q5jothOZUmU',
+      authDomain: 'learn-vuetify.firebaseapp.com',
+      databaseURL: 'https://learn-vuetify.firebaseio.com',
+      projectId: 'learn-vuetify',
+      storageBucket: 'learn-vuetify.appspot.com'
+    })
+  }
 })
